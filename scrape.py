@@ -2,12 +2,13 @@
 import requests
 import random
 from bs4 import BeautifulSoup
-"""Script searches for random Wikipedia articles starting from a base link, to the set depth."""
+"""Script searches for random Wikipedia articles starting from a base link to the set depth."""
 
-__author__ = "SpacerZ"
+__author__ = "SpacerZ ; Cody Boynton"
 __date__ = "7/23/2021"
 
 STARTING_POINT_URL = "https://en.wikipedia.org/wiki/United_States_Naval_Research_Laboratory"
+# ! Change this to search deeper into Wikipedia from the starter URL.
 DEPTH = 1
 
 def scrape_wikipedia_webpages(url):
