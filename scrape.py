@@ -4,7 +4,7 @@ import random
 from bs4 import BeautifulSoup
 """Script searches for random Wikipedia articles starting from a base link to the set depth."""
 
-__author__ = "SpacerZ ; Cody Boynton"
+__author__ = "SpacerZ"
 __date__ = "7/23/2021"
 
 STARTING_POINT_URL = "https://en.wikipedia.org/wiki/United_States_Naval_Research_Laboratory"
